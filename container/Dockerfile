@@ -101,7 +101,7 @@ RUN wget ${HEIF_URL}/v${HEIF_VERSION}/libheif-${HEIF_VERSION}.tar.gz \
   && make V=0 \
   && make install
 
-ARG VIPS_VERSION=8.10.5
+ARG VIPS_VERSION=8.12.2
 ARG VIPS_URL=https://github.com/libvips/libvips/releases/download
 
 RUN wget ${VIPS_URL}/v${VIPS_VERSION}/vips-${VIPS_VERSION}.tar.gz \

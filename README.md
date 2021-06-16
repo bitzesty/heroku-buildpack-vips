@@ -153,8 +153,20 @@ enable debug: no
 enable deprecated library components: yes
 enable modules: no
 use fftw3 for FFT: yes
+Magick package: MagickCore
+Magick API version: magick6
+load with libMagick: yes
+save with libMagick: yes
 accelerate loops with orc: yes
 ICC profile support with lcms: yes (lcms2)
+file import with niftiio: no
+file import with libheif: yes
+file import with OpenEXR: yes
+file import with OpenSlide: no
+file import with matio: no
+PDF import with PDFium: no
+PDF import with poppler-glib: yes
+SVG import with librsvg-2.0: yes
 zlib: yes
 text rendering with pangocairo: no
 font file support with fontconfig:
